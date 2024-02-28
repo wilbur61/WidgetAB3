@@ -1,5 +1,5 @@
 # WidgetAB3
-# comment out tight coupling code,  add your code to do DI
+# comment out tight coupling code add your code to do DI
 
 public class WidgetA {
 	
