@@ -6,7 +6,7 @@ public class WidgetA {
 	
    private WidgetB b;
    
-   //Tight Coupling
+   //Tight Coupling <br>
    public WidgetA(){
     	this.b = new WidgetB();
     	b.doSomething();
