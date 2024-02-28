@@ -1,21 +1,8 @@
 # WidgetAB3  Dependency Injection POC
 
-# comment out tight coupling code add your code to do DI
+# you will need to make changes in <br>
 
-public class WidgetA {
-	
-   private WidgetB b;
-   
-   //Tight Coupling <br>
-   public WidgetA(){
-    	this.b = new WidgetB();
-    	b.doSomething();
-   }
+# Ac1demoapp
+# WidgetA
 
-    // dependency injection   
-    // YOUR CODE HERE
- 
-	public String doSomething() {
-		return("CALLED doSomething() in WidgetA");
-	}
-}
+
