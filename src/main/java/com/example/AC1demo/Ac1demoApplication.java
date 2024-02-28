@@ -14,10 +14,10 @@ public class Ac1demoApplication {
 
     // get the bean from spring container
     //YOUR_CODE_HERE
+    WidgetA wid = context.getBean(WidgetA.class);
 
-    
     // old way, tight coupling
-    WidgetA wid = new WidgetA();
+    //WidgetA wid = new WidgetA();
     
     // call a method on the bean
     System.out.println(wid.doSomething());
