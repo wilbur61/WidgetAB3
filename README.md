@@ -1,4 +1,5 @@
-# WidgetAB3
+# WidgetAB3  Dependency Injection POC
+
 # comment out tight coupling code add your code to do DI
 
 public class WidgetA {
