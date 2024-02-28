@@ -1,1 +1,20 @@
 # WidgetAB3
+# comment out tight coupling code,  add your code to do DI
+
+public class WidgetA {
+	
+   private WidgetB b;
+   
+   //Tight Coupling
+   public WidgetA(){
+    	this.b = new WidgetB();
+    	b.doSomething();
+   }
+
+    // dependency injection   
+    // YOUR CODE HERE
+ 
+	public String doSomething() {
+		return("CALLED doSomething() in WidgetA");
+	}
+}
